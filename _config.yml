@@ -24,8 +24,11 @@ github_username:  malovme
 # Build settings
 markdown: kramdown
 theme: minima
+languages: ['en', 'ru']
+language_default: 'en'
 gems:
   - jekyll-feed
+  - jekyll-multiple-languages
 exclude:
   - Gemfile
   - Gemfile.lock
